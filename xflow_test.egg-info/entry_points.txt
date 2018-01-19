@@ -1,0 +1,3 @@
+[tempest.test_plugins]
+xflow_test = xflow_test_tempest_plugin.plugin:automation
+

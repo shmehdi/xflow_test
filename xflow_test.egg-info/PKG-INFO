@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: xflow-test
+Version: 0.0.0
+Summary: Basic Tempest plugin with a hello world test case
+Home-page: https://github.com/shmehdi/xflow_test
+Author: Hussain Mehdi
+Author-email: syed.mehdi@xflowresearch.com
+License: UNKNOWN
+Description: False
+Keywords: Plugin
+Tempest
+OpenStack
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: OpenStack
+Classifier: Intended Audience :: OpenStack Development Team
+Classifier: Intended Audience :: OpenStack QA Team
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: Linux
+Classifier: Natural Language :: English
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python
