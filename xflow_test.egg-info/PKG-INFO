@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: xflow-test
-Version: 0.0.0
+Version: 0.0.1.dev1
 Summary: Basic Tempest plugin with a hello world test case
 Home-page: https://github.com/shmehdi/xflow_test
 Author: Hussain Mehdi
