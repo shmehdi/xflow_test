@@ -13,3 +13,17 @@
 #    License for the specific language governing permissions and limitations
 #    under the License.
 
+from oslo_config import cfg
+from tempest import config
+
+service_option = cfg.BoolOpt("xflowService",
+                             default=True,
+                             help="Whether or not xflowService is expected to be "
+                                  "available")
+								  
+xflowService_group = cfg.OptGroup(
+    name="xflow_test",
+    title="xflow_test plugin settings")
+
+xflowServiceGroup = cfg.StrOpt("tripleo", default="true",
+								help="tripleo config tests")

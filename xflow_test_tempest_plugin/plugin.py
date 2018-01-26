@@ -28,13 +28,12 @@ class automation(plugins.TempestPlugin):
             os.path.abspath(__file__)))[0]
         test_dir = "xflow_test_tempest_plugin/tests"
         full_test_dir = os.path.join(base_path, test_dir)
-		print ("instance created")
         return full_test_dir, base_path
 
     def register_opts(self, conf):
-		print("hello")
-        pass
+		config.register_opts(conf, project_config.service_option, project_config.xflowService_group)
+		config.register_opts(conf, project_config.xflowServiceGroup, project_config.xflowService_group)
+
 
     def get_opt_lists(self):
-		print("hello1")
-        pass
+        return([project_config.xflowServiceGroup.name, project_config.xflowServiceGroup])
